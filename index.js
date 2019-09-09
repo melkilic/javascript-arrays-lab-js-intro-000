@@ -21,5 +21,5 @@ function prependKitten(Broom){
   return [Broom,...kittens];
 }
 function removeLastKitten(Broom){
-return kittens.slice(0,kittens.length-2);
+return kittens.slice(0,kittens.length-3);
 }
