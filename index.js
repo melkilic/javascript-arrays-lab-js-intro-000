@@ -17,3 +17,6 @@ function appendKitten(Broom){
   kittens1.push("Broom");
   return kittens1;
 }
+function prependKitten(Broom){
+  return [Broom,...kittens];
+}
