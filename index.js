@@ -9,3 +9,6 @@ function destructivelyPrependKitten(Ralph){
 function destructivelyRemoveLastKitten(Ralph){
   return kittens.pop()
 }
+function destructivelyRemoveFirstKitten(){
+  kittens.shift()
+}
