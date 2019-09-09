@@ -23,6 +23,6 @@ function prependKitten(Broom){
 function removeLastKitten(Broom){
 return kittens.slice(0,kittens.length-1);
 }
-function removeFirstKitten(Broom){
+function removeFirstKitten(){
   return kittens.unshift();
 }
