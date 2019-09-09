@@ -12,3 +12,7 @@ function destructivelyRemoveLastKitten(Ralph){
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
 }
+function appendKitten(Nermal){
+  var kittens1= ["Nermal"];
+  console.log(kittens.concat(kittens1));
+}
